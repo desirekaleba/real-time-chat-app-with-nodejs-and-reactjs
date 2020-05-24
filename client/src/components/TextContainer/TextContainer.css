@@ -1,16 +1,11 @@
 .textContainer {
-  display: flex;
-  flex-direction: column;
-  margin-left: 100px;
+  margin-left: 4rem;
   color: white;
-  height: 60%;
-  justify-content: space-between;
+  height: 90%;
 }
 
 .activeContainer {
-  display: flex;
-  align-items: center;
-  margin-bottom: 50%;
+  
 }
 
 .activeItem {
@@ -27,6 +22,12 @@
 }
 
 @media (min-width: 320px) and (max-width: 1200px) {
+  .textContainer {
+    
+  }
+}
+
+@media (min-width: 320px) and (max-width: 460px) {
   .textContainer {
     display: none;
   }
